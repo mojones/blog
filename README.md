@@ -24,6 +24,14 @@ title: New Note
 This is a post written in Markdown.
 ```
 
+You can generate a correctly dated post file with:
+
+```bash
+bin/new-post "My New Post"
+```
+
+That creates `_posts/YYYY-MM-DD-my-new-post.md` with starter front matter.
+
 ## Local preview
 
 Local preview is optional. GitHub Actions can build and deploy the site without any local Ruby install.

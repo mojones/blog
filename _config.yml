@@ -1,0 +1,27 @@
+title: Preliminary Work
+description: Notes and essays.
+url: "https://preliminarywork.com"
+baseurl: "/blog"
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+theme: null
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - github_pages_summary.md
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
